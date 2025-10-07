@@ -1,0 +1,373 @@
+
+
+// (1)
+/* var number = window.prompt("");
+console.log(number);
+ */
+
+//==================
+// (2)
+/* var number = window.prompt();
+if (number % 3 == 0 && number % 4 == 0) {
+  console.log("Yes");
+} else {
+  console.log("No");
+} */
+//==================
+// (3)
+/* var num1 = window.prompt()
+var num2 = window.prompt()
+if(num1> num2)
+{
+  console.log(num1);
+}
+else if(num1 < num2){
+  console.log(num2);
+}
+else{
+  console.log("two numbers are equal")
+} */
+//==================
+// (4)
+/* var number = window.prompt()
+if(number<0){
+  console.log("negative")
+}
+else{
+  console.log("positive")
+} */
+//==================
+// (5)
+/*var num1 = Number(window.prompt(""))
+var num2 = Number(window.prompt(""))
+var num3 = Number(window.prompt(""))
+if(num1> num2 && num1> num3){
+  console.log("max =" + " " + num1)
+  if(num2< num3){
+    console.log("min =" +" " + num2)
+  }
+  else{
+    console.log("min =" +" " + num3)
+  }
+}
+else if(num2> num1 && num2> num3){
+  console.log("max ="+ " " + num2)
+  if(num1<num3){
+    console.log("min =" +" " + num1)
+  }
+  else{
+    console.log("min =" +" " + num3)
+  }
+}
+else {
+  console.log("max =" +" " + num3)
+  if(num1<num2)
+{console.log("min =" + " " + num1)}
+else{
+  console.log("min =" + " " + num2)
+}
+}
+//==================
+// (6)
+/* var num1 = Number(window.prompt(""))
+if(num1 %2 == 0 ){
+  console.log("even")
+}
+else{
+  console.log("odd")
+} */
+
+//==================
+// (8)
+/* var char = window.prompt("")
+if(char=="O" || char=="u" || char=="a" || char=="e" || char=="i"){
+  console.log("vowel")
+}
+else{
+  console.log("costant")
+} */
+//==================
+// (9)
+/* var num1 =Number(window.prompt())
+for(var i = 1 ; i<= num1;i++){
+  console.log(i )
+} */
+
+//==================
+// (10)
+/* var num1 = Number(window.prompt())
+for(var i = 1 ; i<=12 ; i++){
+  console.log(num1*i)
+} */
+//==================
+// (11)
+/* var  num1 = Number(window.prompt(""))
+for(var i =1 ;i<=num1 ; i++)
+{
+  if(i%2==0)
+{
+  console.log(i)
+}
+
+} */
+//==================
+// (12)  power
+/* var num1 = Number(window.prompt(""))
+var num2 = Number(window.prompt(""))
+console.log(num1 ** num2) */
+//==================
+// (12)
+// افترضت الدرجات العظمي للمواد اربعة = 100 و واحدة = 50
+
+/* var sum =0; 
+
+for(var i =0 ; i<5 ; i++){
+  var num1 = Number(window.prompt(""))
+  sum += num1 ;
+}
+
+var total= 100*4 + 60;
+var percentage = sum / total * 100
+var average = sum
+console.log("sum = "+ sum )
+console.log("average = "+ average / 5)
+console.log("percentage = "+ percentage) */
+
+//==================
+//  (13)
+/* var month = Number(window.prompt(""))
+switch(month){
+  case 1:
+    console.log("day of month = " + 31);
+    break;
+  
+  case 2:
+    console.log("day of month = " + 28);
+    break;
+  
+  case 3:
+    console.log("day of month = " + 31);
+    break;
+  
+  case 4:
+    console.log("day of month = " + 30);
+    break;
+  
+  case 5:
+    console.log("day of month = " + 31);
+    break;
+  
+  case 6:
+    console.log("day of month = " + 30);
+    break;
+  
+  case 7:
+    console.log("day of month = " + 31);
+    break;
+  
+  case 8:
+    console.log("day of month = " + 31);
+    break;
+  
+  case 9:
+    console.log("day of month = " + 30);
+    break;
+  case 10:
+    console.log("day of month = " + 31);
+    break;
+  case 11:
+    console.log("day of month = " + 30);
+    break;
+  case 12:
+    console.log("day of month = " + 31);
+    break;
+  default:
+    console.log("please enter a valid month")
+    break;
+} */
+
+//==================
+// (14)
+// افترضت الدرجات العظمي للمواد اربعة = 100 و واحدة = 50
+
+/* var sum =0; 
+
+for(var i =0 ; i<5 ; i++){
+  var num1 = Number(window.prompt(""))
+  sum += num1 ;
+}
+
+var total= 100*4 + 60;
+var percentage = sum / total * 100
+if(percentage>= 90){
+  console.log("Grad A")
+}
+else if(percentage>= 80) {
+  console.log("Grad B")
+}
+else if(percentage>= 70) {
+  console.log("Grad C")
+}
+else if(percentage>= 60) {
+  console.log("Grad D")
+}
+else if(percentage>= 50) {
+  console.log("Grad E")
+}
+else{
+  console.log("Grad F")
+} */
+
+//==================
+// (15)
+/* var month = Number(window.prompt(""))
+switch(month){
+  case 1:
+    console.log("day of month = " + 31);
+    break;
+  
+  case 2:
+    console.log("day of month = " + 28);
+    break;
+  
+  case 3:
+    console.log("day of month = " + 31);
+    break;
+  
+  case 4:
+    console.log("day of month = " + 30);
+    break;
+  
+  case 5:
+    console.log("day of month = " + 31);
+    break;
+  
+  case 6:
+    console.log("day of month = " + 30);
+    break;
+  
+  case 7:
+    console.log("day of month = " + 31);
+    break;
+  
+  case 8:
+    console.log("day of month = " + 31);
+    break;
+  
+  case 9:
+    console.log("day of month = " + 30);
+    break;
+  case 10:
+    console.log("day of month = " + 31);
+    break;
+  case 11:
+    console.log("day of month = " + 30);
+    break;
+  case 12:
+    console.log("day of month = " + 31);
+    break;
+  default:
+    console.log("please enter a valid month")
+    break;
+} */
+
+//==================
+// (16)
+/* var char = window.prompt("")
+switch(char){
+  case 'a':
+    console.log("vowel")
+    break ; 
+  case 'o':
+    console.log("vowel")
+    break ; 
+  case 'u':
+    console.log("vowel")
+    break ; 
+  case 'e':
+    console.log("vowel")
+    break ; 
+  case 'i':
+    console.log("vowel")
+    break ; 
+  default:
+    console.log("constant")
+    break ;
+
+} */
+
+//==================
+// (17)
+/* var num1 = Number(window.prompt())
+var num2 = Number(window.prompt())
+switch(true){
+  case num1>num2:
+    console.log(num1)
+    break ;
+  case num2> num1:
+    console.log(num2)
+    break
+  default:
+    console.log("two numbers are equal")
+    break;
+} */
+
+//==================
+// (18)
+/* var num1 = Number(window.prompt())
+
+switch(true){
+  case num1%2== 0:
+    console.log("even")
+    break
+  default:
+    console.log("log")
+    break ;
+}
+ */
+//==================
+// (19)
+/* var num1 = Number(window.prompt())
+
+switch(true){
+  case num1> 0:
+    console.log("positive")
+    break
+  case num1 <0 :
+    console.log("negative")
+    break ;
+  default:
+    console.log("zero")
+    break ;
+}
+ */
+
+
+//==================
+// (20)
+ var num1 = Number(window.prompt())
+var num2 = Number(window.prompt())
+var operation = window.prompt()
+switch(operation){
+  case "+": 
+    console.log(num1 +num2)
+    break
+  case "-": 
+    console.log(num1 - num2)
+    break
+  case "*": 
+    console.log(num1*num2)
+    break;
+  case "/" : 
+    if(num2 ==0)
+      console.log("erorr")
+    else{
+      console.log(num1/num2)
+    }
+    break;
+  default: 
+  console.log("erorr")
+  break;
+   
+
+  }
